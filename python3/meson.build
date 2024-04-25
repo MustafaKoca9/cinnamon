@@ -19,5 +19,5 @@ install_data(
     'cinnamon/proxygsettings.py',
     'cinnamon/updates.py'
   ],
-  install_dir: join_paths(install_path, 'cinnamon'),
+  install_dir=join_paths(install_path, 'cinnamon')
 )
